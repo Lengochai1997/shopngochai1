@@ -1,0 +1,14 @@
+.list-image {}
+.list-image ._1image {
+    margin-bottom: 10px;
+}
+.list-image ._1image img {
+    width: 600px;
+}
+.list-image ._1image button {
+    margin-left: 10px;
+}
+
+#view-thumbnail {
+    width: 100%;
+}

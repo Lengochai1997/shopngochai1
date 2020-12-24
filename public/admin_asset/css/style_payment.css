@@ -1,0 +1,31 @@
+/*Style list payment*/
+.list-payments {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.list-payments .payment {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: stretch;
+    border: 1px solid gray;
+    margin-bottom: 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.list-payments .payment.active {
+    background-color: gray;
+    color: white;
+}
+.list-payments .payment i {
+    width: 25px;
+}
+.list-payments .payment .payment-name {}
+
+/*Style Buttons*/
+.buttons {
+    margin-top: 10px;
+}

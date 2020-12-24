@@ -1,0 +1,452 @@
+/*Style Loading*/
+#loading {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 99;
+    background: #80808036;
+    display: none;
+}
+
+#loading img {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    margin-left: -50px;
+    margin-top: -50px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+}
+
+#loading #icon-loading {
+    position: fixed;
+    margin-left: -80px;
+    margin-top: -80px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    border: 20px solid #f3f3f3;
+    border-top: 20px solid #32c5d2;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+/*Style Spin*/
+.rotation {}
+
+@media only screen and (max-width: 46.1875em) {
+    .rotation .play-spin {
+        position: relative;
+        width: 357px;
+        height: 357px;
+    }
+    .rotation .play-spin a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -53px;
+        margin-left: -37px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .rotation .play-spin a .btn-play {
+        width: 78px;
+    }
+    .rotation .play-spin .spin {
+        width: 357px;
+    }
+
+    .button-login-xs {
+        display: inline!important;
+    }
+
+    .video-youtube {
+        padding: 0px;
+    }
+
+    .gold {
+        width: 200px;
+    }
+
+    .top-charge {
+        min-height: auto;
+    }
+    .title-top {
+
+    }
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .rotation .play-spin {
+        position: relative;
+        width: 600px;
+        height: 600px;
+    }
+    .rotation .play-spin a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -87px;
+        margin-left: -64px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .rotation .play-spin a .btn-play {
+        width: 129px;
+    }
+    .rotation .play-spin .spin {
+        width: 600px;
+        height: 600px;
+    }
+
+    .button-login-xs {
+        display: none!important;
+    }
+
+    .video-youtube {
+        padding: 0px 0px 0px 10px;
+    }
+    .gold {
+        width: 300px;
+    }
+    .top-charge {
+        min-height: 240px;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    .rotation .play-spin {
+        position: relative;
+        width: 600px;
+        height: 600px;
+    }
+    .rotation .play-spin a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -87px;
+        margin-left: -64px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .rotation .play-spin a .btn-play {
+        width: 129px;
+    }
+    .rotation .play-spin .spin {
+        width: 600px;
+        height: 600px;
+    }
+
+    .button-login-xs {
+        display: none!important;
+    }
+
+    .video-youtube {
+        padding: 0px 0px 0px 10px;
+    }
+    .gold {
+        width: 300px;
+    }
+    .top-charge {
+        min-height: 240px;
+    }
+}
+
+
+
+@keyframes spin {
+    0% {
+        transform: rotateZ(0);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+/*Style Wheel*/
+.wheel {
+    background: black;
+}
+.wheel .sl-sebox {
+    background: #1d1d1d;
+}
+.wheel .wheel-title {
+    font-size: 39px;
+    color: gold;
+    font-weight: bold;
+    padding: 2px;
+}
+.wheel .content {
+    margin-top: 20px;
+}
+.wheel .wheel-spin {
+}
+.wheel .wheel-spin .rotation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wheel .wheel-spin .btn-play {}
+.wheel .wheel-spin .spin {}
+
+.wheel .gold-count {
+    font-size: 26px;
+    color: white;
+}
+.wheel .gold-count span {
+    color: #ffc800;
+    font-size: 26px;
+}
+.wheel .history-gold {}
+.wheel .history-gold .history-gold-title {
+    font-size: 24px;
+    color: #0ce3ac;
+    margin-bottom: 25px;
+}
+.wheel .history-gold table {
+    border: 1px solid gray;
+    text-align: center;
+}
+.wheel .history-gold table th {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #ff502e;
+    background: #000000;
+    border: 1px solid gray;
+}
+.wheel .history-gold table tbody tr {}
+.wheel .history-gold table tbody td {
+    background-color: #191919;
+    color: white;
+}
+
+/*Style History*/
+.history-rules {
+    padding-bottom: 55px;
+    margin-top: 27px;
+}
+.history-rules .nav-tabs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: stretch;
+    border: none;
+}
+.history-rules .nav-tabs .nav-item {
+    margin-right: 5px;
+    background-color: black;
+    margin-right: 17px;
+    padding: 0px;
+}
+.history-rules .nav-tabs .nav-item.active {border-bottom: 3px solid red;}
+.history-rules .nav-tabs .nav-item a {
+    color: white!important;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    background: black;
+    border: none!important;
+}
+.history-rules .nav-tabs .nav-item a:hover, .history-rules .nav-tabs .nav-item a:focus {
+    background-color: black;
+}
+.history-rules .tab-content {margin: 18px 0px;}
+.history-rules .tab-content .tab-pane {
+    border: 1px solid gray;
+}
+.history-rules .tab-content .tab-pane table {
+    margin: 0px;
+}
+.history-rules .tab-content .tab-pane table thead {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #ff502e;
+}
+.history-rules .tab-content .tab-pane table thead tr {}
+.history-rules .tab-content .tab-pane table thead td {
+    border: 1px solid gray;
+}
+.history-rules .tab-content .tab-pane table tbody {
+    background-color: #191919;
+    /* color: white; */
+}
+.history-rules .tab-content .tab-pane table tbody tr {
+
+}
+.history-rules .tab-content .tab-pane table tbody td {background-color: #191919;color: white;text-align: center;border: 1px solid gray;}
+
+.history-rules #rules {
+    color: white;
+}
+
+
+/*Style for main alert*/
+#mainAlert {}
+#mainAlert .modal-dialog {}
+#mainAlert .modal-content {}
+#mainAlert .modal-header {
+    text-align: center;
+}
+#mainAlert .modal-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: red;
+}
+#mainAlert .modal-body {}
+#mainAlert .modal-footer {
+    padding: 10px;
+    text-align: center;
+}
+
+/*Style for flip card*/
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border: 2px solid transparent;
+}
+/*.flip-card:hover .flip-card-inner {*/
+/*    transform: rotateY(180deg);*/
+/*}*/
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+.flip-card-front {
+    /*background-color: #bbb;*/
+    color: black;
+}
+.flip-card-back {
+    // background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+/*Style for flip card*/
+.list-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.list-card ._1card:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+._1card.flip-card {
+    width: 175px;
+    height: 261px;
+    border: none;
+    margin-right: 40px;
+    margin-bottom: 15px;
+}
+._1card.flip-card img {
+    width: 100%;
+    height: 100%;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 46.1875em) {
+    ._1card.flip-card {
+        margin-right: 0px;
+        width: 170px;
+        height: 256px;
+    }
+}
+ .example1{
+    border: 1px solid white;
+    padding: 2px 6px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 1px;
+
+         }
+ .sl-btnod1 {
+    display: inline-block;
+    width: 166px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    border: none;
+    outline: 0;
+    background:url(https://shopmollu.com/assets/frontend/home/images/bgbtn.png) no-repeat center;
+}
+.sl-prifbot {
+    padding: 15px;
+    max-height: 175px;
+    overflow: hidden;
+}
+.body1 {
+    background: #000;
+    background: url(https://shopmollu.com/storage/images/SdC3D6ZHsa_1605865810.jpg);
+    background-attachment: fixed;
+    color: #dadada !important;
+    background-size: 100%;
+}
+.sl-prbot {
+    text-align: center;
+}
+.sa-login li a {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+    color: #333;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(bottom, #FFE900 0%, #F2AC00 100%)!important;
+    font-weight: bold;
+}

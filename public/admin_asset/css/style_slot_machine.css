@@ -1,0 +1,203 @@
+.list-slots {
+    list-style-type: none;
+}
+.list-slots ._1slot {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.list-slots ._1slot img {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+.list-slots ._1slot .slot-info {
+
+}
+.list-slots ._1slot .form-group {
+    display: flex;
+    align-items: baseline;
+    margin: 0px 0px 3px 0px;
+    padding-right: 10px;
+}
+.list-slots ._1slot .form-group label {
+    margin-right: 6px;
+    width: 70px;
+}
+.list-slots ._1slot .form-group input {
+    width: 300px;
+}
+.add-slot-machine a {
+    text-decoration: none;
+    color: #4e73df;
+}
+.add-slot-machine:hover a {
+    color: white;
+}
+
+.slot-machine-title {
+    text-align: center;
+    font-size: 33px;
+    margin: 50px 0px 10px 0px;
+}
+.border-bottom-title {
+    border: 2px solid #3fc1d8;
+    width: 30%;
+    margin: 12px auto;
+}
+.slot-machine {
+    background-color: #ce5b5b;
+    width: 600px;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 20px 0px 40px 0px;
+}
+.slot-machine .slots {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    border-radius: 5px;
+}
+.slot-machine .slot_1, .slot-machine .slot_2, .slot-machine .slot_3 {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: 20px;
+}
+.slot-machine .slot_1 {
+}
+.slot-machine .slot_2 {}
+.slot-machine .slot_3 {}
+.slot-machine div {
+    /*width: 100px;*/
+    /*height: 100px;*/
+}
+.slot-machine div img {
+    width: 150px;
+    height: 150px;
+}
+.slot-machine img {}
+.slot-machine .get-result {
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+.slot-machine .get-result img {
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+}
+.slot-machine-info {}
+.slot-machine-info .slot-machine-price {
+    text-align: center;
+}
+.slot-machine-info .buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+.slot-machine-info .buttons .button-action {
+    color: white;
+    background-color: #ce5b5b;
+    padding: 9px 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#view-image, #view-background {
+    width: 200px;
+    height: auto;
+}
+
+/*custom style for halloween*/
+.slot-machine.halloween {
+    width: 662px;
+}
+.slot-machine.halloween .slots {
+    background-size: cover;
+    width: 100%;
+    height: 508px;
+    background-color: white;
+}
+.slot-machine.halloween .slots .slot_1,
+.slot-machine.halloween .slots .slot_2,
+.slot-machine.halloween .slots .slot_3 {
+    width: 100px;
+    height: 100px;
+}
+.slot-machine.halloween .slots img {
+    width: 100%;
+    height: 100%;
+}
+.slot-machine.halloween .get-result {
+    background-color: white;
+}
+.slot-machine.halloween .get-result img {}
+
+
+/* Mobile: width < 740xp; */
+@media only screen and (max-width: 46.1875em) {
+    .slot-machine {
+        width: 100%;
+    }
+    .slot-machine .slots {
+        flex-direction: column;
+    }
+    .slot-machine .slot_1, .slot-machine .slot_2, .slot-machine .slot_3 {
+        margin: 10px;
+    }
+    .slot-machine .get-result {
+        padding: 10px;
+    }
+
+    /*response for halloween slot machine*/
+    .slot-machine.halloween {
+        padding: 0px;
+        width: 100%;
+        background-color: white;
+    }
+    .slot-machine.halloween .slots {
+        background-size: 100%;
+        flex-direction: row;
+        height: 300px;
+        background-repeat: no-repeat;
+    }
+    .slot-machine.halloween .slots .slot_1,
+    .slot-machine.halloween .slots .slot_2,
+    .slot-machine.halloween .slots .slot_3 {
+        width: 60px;
+        height: 60px;
+        margin: 13px;
+    }
+    .slot-machine.halloween .slots div {
+        width: 60px;
+        height: 60px;
+    }
+    .slot-machine.halloween .slots img {
+        width: 60px;
+        height: 60px;
+    }
+    .slot-machine.halloween .get-result {
+        margin: 0px;
+    }
+    .slot-machine.halloween .get-result img {}
+}
+/* Table: width >= 740xp and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+
+}
+/* PC: width >= 1024px */
+@media only screen and (min-width: 64em) {
+
+}

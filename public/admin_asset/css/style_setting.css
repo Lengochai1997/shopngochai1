@@ -1,0 +1,23 @@
+/*Style for list slider*/
+#list-slider {}
+#list-slider ._1slider {
+    padding: 10px 0px;
+    text-align: center;
+}
+#list-slider ._1slider img {
+    width: 100%;
+    max-height: 300px;
+}
+#list-slider ._1slider button {
+    margin-top: 5px;
+}
+
+/*Style for background*/
+#background {
+    padding: 10px 0px;
+    margin-bottom: 5px;
+}
+#background img {
+    width: 100%;
+    max-height: 300px;
+}

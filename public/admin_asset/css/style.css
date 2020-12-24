@@ -1,0 +1,79 @@
+/*Style Loading*/
+#loading {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 99;
+    background: #80808036;
+}
+
+#loading img {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    margin-left: -50px;
+    margin-top: -50px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+}
+
+#loading #icon-loading {
+    position: fixed;
+    margin-left: -80px;
+    margin-top: -80px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    border: 20px solid #f3f3f3;
+    border-top: 20px solid #4e73df;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/*Custom form*/
+form .form-group {}
+form .form-group label {
+    font-weight: bold;
+}
+form .form-group .form-control {}
+
+/*Style form error*/
+form .error {
+    border-color: red;
+}
+
+/*Style Error Message*/
+form label.error {
+    font-size: 13px;
+    color: red;
+}
+
+/*Style List Image*/
+.list-images {
+
+}
+.list-images .image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+}
+.list-images .image img {
+    width: 700px;
+    margin: 15px;
+}
+.list-images .image button {}
+

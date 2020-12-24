@@ -1,0 +1,210 @@
+.dark {
+
+}
+.dark .c-logo img {
+    padding-left: 10px;
+}
+.dark .c-navbar {
+    background-color: #000000cf!important;
+}
+.dark .c-navbar-wrapper {
+    color: white;
+}
+.dark a {
+    color: white!important;
+}
+.dark a.btn {
+    background-color: yellow;
+    color: black!important;
+    font-weight: bold;
+}
+.dark a.btn:hover {
+    background-color: yellow!important;
+    color: #888888!important;
+}
+.dark button {}
+.dark .c-mega-menu {}
+.dark .c-mega-menu ul {}
+.dark .c-mega-menu ul li {}
+.dark .c-mega-menu ul li {}
+.dark .c-hor-nav-toggler {
+    background-color: white!important;
+    color: black!important;
+}
+.dark .c-hor-nav-toggler .c-line {
+    background-color: black!important;
+}
+
+/*style for top charge*/
+.dark #slider {}
+.dark #slider .container {}
+.dark #slider .container .row {
+    background-color: #000000cf!important;
+    border: 6px solid gray;
+}
+.dark #slider .box {
+    border-color: gray;
+}
+.dark #slider .box .box-header {
+    background-color: black;
+}
+.dark #slider .box .box-header ul {}
+.dark #slider .box .box-header ul li {}
+.dark #slider .box .box-header ul li.active {}
+.dark #slider .box .box-header ul li a {}
+.dark #slider .box .box-header ul li a:hover {
+    background-color: #404040;
+    border-radius: 0px;
+}
+.dark #slider .box .box-header ul li a h3 {
+    color: yellow!important;
+    font-weight: bold;
+}
+.dark #slider .box .box-body {
+    background-color: #292929;
+}
+.dark #slider .box .box-body .tab-content {}
+
+/*style for charge*/
+.dark #charge {}
+.dark .form-group {}
+.dark .form-group label {
+    color: white;
+}
+.dark .form-group input,
+.dark .form-group select {
+    color: white;
+    background-color: #1f2228;
+    border: 1px solid #30343c;
+}
+.dark .input-group input,
+.dark .input-group select,
+.dark .input-group span {
+    color: white;
+    background-color: #1f2228;
+    border: 1px solid #30343c;
+}
+.dark #charge .form-group button {
+    color: black;
+    background-color: yellow;
+    border: 1px solid #32c5d2;
+}
+.dark .top-charge label {
+    color: yellow;
+    font-weight: bold;
+}
+
+.dark .content-dark {
+    background-color: #1d1d1d!important;
+}
+.dark .content-dark .c-content-box {
+    background-color: rgba(0,0,0,0.8)!important;
+}
+.dark .content-dark h3 {
+    color: yellow!important;
+}
+.dark .content-dark .classWithPad {
+    background-color: #3c3c3c;
+    color: yellow;
+}
+.dark .content-dark .news_description {
+    color: white;
+}
+.dark .content-dark .wheel {
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+
+/*style for slot machine*/
+.dark .content-dark .slot-machine {
+    background-color: gray!important;
+}
+.dark .content-dark .border-bottom-title {
+    border-color: yellow;
+}
+.dark .content-dark .slot-machine-info .slot-machine-price {
+    color: white;
+}
+
+/*style for flip card*/
+.dark .content-dark > .container {
+    background-color: #333333;
+}
+
+/*style for list account*/
+.dark .content-dark .alert {
+    margin-top: 10px;
+}
+.dark .content-dark .field-search .input-group select,
+.dark .content-dark .field-search .input-group input,
+.dark .content-dark .field-search .input-group span
+{
+    color: white;
+    background-color: #1f2228;
+    border: 1px solid #30343c;
+}
+
+/*style for user*/
+.dark .content-dark h2 {
+    color: white;
+}
+.dark .content-dark .content-gray {
+    background-color: #3c3c3c!important;
+}
+.dark .content-dark .content-gray table {
+
+}
+.dark .content-dark .content-gray table tr {
+    background-color: #3c3c3c!important;
+    color: white;
+}
+.dark .content-dark .content-gray table th {}
+
+/*style for data table*/
+.dark .content-dark .dataTables_wrapper {}
+.dark .content-dark .dataTables_wrapper thead {
+    background-color: #3c3c3c!important;
+}
+.dark .content-dark .dataTables_wrapper th {
+    color: whitesmoke;
+}
+.dark .content-dark .dataTables_wrapper tr {
+    background-color: #3c3c3c!important;
+    color: whitesmoke;
+}
+.dark .content-dark .dataTables_wrapper .dataTables_info {
+    color: whitesmoke;
+}
+.dark .content-dark .dataTables_wrapper .dataTables_paginate a {
+    color: whitesmoke!important;
+}
+.dark .content-dark .dataTables_wrapper button {
+    color: #000000;
+}
+
+/*style for atm*/
+.dark .content-dark p {
+    color: whitesmoke;
+}
+
+/*style for random list account*/
+.dark .content-dark .c-bg-grey-1 {
+    background-color: yellow!important;
+    color: black;
+    padding: 5px 20px;
+}
+.dark .content-dark .c-content-product-2 {
+    background-color: #232323!important;
+    padding: 10px;
+}
+.dark .content-dark .btn-group.c-border-left.c-border-top {
+    border: none!important;
+}
+
+/*style for slot machine halloween*/
+.dark .slot-machine.halloween .get-result {
+    background-color: #333333;
+}
+.dark .slot-machine.halloween .slots {
+    background-color: #333333;
+}
